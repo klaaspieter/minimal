@@ -1,0 +1,17 @@
+{{!< default}}
+
+
+{{#post}}
+  <header class="post-header">
+    <section>
+      <h1>{{title}}</h1>
+      <aside>
+        <time datetime="{{date format="YYYY-MM-DD"}}">
+         Published on {{date format="DD MMM YYYY"}}
+        </time>
+      </aside>
+  </header>
+  <section>
+    {{content}}
+  </section>
+{{/post}}

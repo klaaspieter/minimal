@@ -1,0 +1,15 @@
+{
+    "name": "minimal",
+    "description": "Super minimal Ghost theme",
+    "version": "1.0.0",
+    "engines": {
+        "ghost": ">=1.0.0"
+    },
+    "license": "MIT",
+    "author": {
+        "email": "kpa@annema.me"
+    },
+    "config": {
+        "posts_per_page": 100
+    }
+}

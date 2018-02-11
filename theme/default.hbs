@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{meta_title}}</title>
+    <link rel="stylesheet" type="text/css" href="{{asset "css/minimal.css"}}" />
+
+    {{ghost_head}}
+  </head>
+  <body>
+    <header class="site-title">
+      <nav class="container">
+        <h1 class="row">
+          <a href="{{@blog.url}}">{{@blog.title}}</a>
+        </h1>
+      </nav>
+    </header>
+
+    <main role="main" class="container">
+      <div class="row">
+        {{{body}}}
+      </div>
+    </main>
+
+    <footer>
+      {{ghost_foot}}
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{{!< default}}
+
+{{#foreach posts}}
+  <article class="post-card">
+    <header class="post-header">
+      <a href="{{url}}">
+        <h1>
+          {{title}}
+        </h1>
+        <aside>
+          <time datetime="{{date format="YYYY-MM-DD"}}">
+           Published on {{date format="DD MMM YYYY"}}
+          </time>
+        </aside>
+        <p>{{excerpt words="50"}}&hellip;</p>
+      </a>
+    </header>
+  </article>
+{{/foreach}}
