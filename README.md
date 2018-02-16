@@ -26,3 +26,31 @@ cd ../../
 Activate the minimal theme at http://localhost:2369/ghost/#/settings/design
 
 [local ghost install]: https://docs.ghost.org/docs/install-local#section-developing-themes
+
+## Releasing
+
+Zip the theme:
+
+```sh
+zip minimal *
+```
+
+Copy the changelog for the version and create a git tag:
+
+```sh
+git tag -s [version]
+```
+
+Paste the changelog into the editor. Save and quit.
+
+Push the git tag:
+
+```sh
+git push --tags
+```
+
+Create a new [github release]. Paste the changelog to describe the release and attach the minimal.zip file.
+
+Publish the release.
+
+[github release]: https://github.com/klaaspieter/minimal/releases/new
