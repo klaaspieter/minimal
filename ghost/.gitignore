@@ -40,6 +40,10 @@ Session.vim
 *.db
 *.db-journal
 
+# Ghost CLI
+*.ghost-cli
+*.ghostpid
+
 .build
 .dist
 .tmp
