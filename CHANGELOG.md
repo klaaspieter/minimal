@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+[Unreleased]: https://github.com/klaaspieter/minimal/compare/1.0.0...HEAD
+
 ## [1.0.0] - 2018-02-16
 
 ### Added
@@ -14,5 +16,5 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 - README explaining how to install and/or develop the project.
 - This CHANGELOG.md to keep track of changes as the project evolves.
 
-[Unreleased]: https://github.com/klaaspieter/minimal/compare/1.0.0...HEAD
 [1.0.0]: https://github.com/klaaspieter/minimal/compare/1.0.0...4b6fc5
+
