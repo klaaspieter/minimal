@@ -41,12 +41,6 @@ Activate the minimal theme at http://localhost:2369/ghost/#/settings/design
 
 ## Releasing
 
-Zip the theme:
-
-```sh
-zip minimal *
-```
-
 Copy the changelog for the version and create a git tag:
 
 ```sh
@@ -61,7 +55,7 @@ Push the git tag:
 git push --tags
 ```
 
-Create a new [github release]. Paste the changelog to describe the release and attach the minimal.zip file.
+Create a new [github release]. Paste the changelog to describe the release.
 
 Publish the release.
 
