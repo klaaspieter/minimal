@@ -8,15 +8,11 @@ See it in action at https://annema.me/
 
 ## Installation
 
-Download `minimal.zip` from the [latest release]
+1. Download zip of the [latest release].
+1. Upload it to your ghost blog: https://your-ghost-blog.url/ghost/#/settings/design
+1. Activate the theme.
 
 [latest release]: https://github.com/klaaspieter/minimal/releases
-
-Upload it to your ghost blog:
-
-https://your-ghost-blog.url/ghost/#/settings/design
-
-Activate the theme.
 
 ## Developing
 
