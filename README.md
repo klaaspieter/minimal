@@ -1,14 +1,18 @@
 # Minimal
 
-A very minimal blogging theme inspired by https://thebestmotherfucking.website/.
+A very minimal [Ghost] theme inspired by https://thebestmotherfucking.website/.
 
-# Installation
+See it in action at https://annema.me/
+
+[Ghost]: https://ghost.org/
+
+# Developing
+
+Clone this repository:
 
 ```
 git clone https://github.com/klaaspieter/minimal
 ```
-
-# Developing
 
 Start the bundled ghost blog with minimal as the default theme:
 
