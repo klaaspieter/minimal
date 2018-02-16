@@ -10,6 +10,6 @@
         "email": "kpa@annema.me"
     },
     "config": {
-        "posts_per_page": 100
+        "posts_per_page": 5
     }
 }
