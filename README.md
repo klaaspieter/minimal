@@ -6,6 +6,18 @@ See it in action at https://annema.me/
 
 [Ghost]: https://ghost.org/
 
+## Installation
+
+Download `minimal.zip` from the [latest release]
+
+[latest release]: https://github.com/klaaspieter/minimal/releases
+
+Upload it to your ghost blog:
+
+https://your-ghost-blog.url/ghost/#/settings/design
+
+Activate the theme.
+
 ## Developing
 
 Clone this repo
